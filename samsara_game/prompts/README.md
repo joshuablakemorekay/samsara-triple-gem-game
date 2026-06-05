@@ -1,6 +1,6 @@
 # Prompt Library — Samsara: Journey to the Triple Gem
 
-[![Prompt Eval](https://github.com/MungManBaoIsan/samsara-triple-gem-game/actions/workflows/prompt-eval.yml/badge.svg)](https://github.com/MungManBaoIsan/samsara-triple-gem-game/actions/workflows/prompt-eval.yml)
+[![Prompt Eval](https://github.com/joshuablakemorekay/samsara-triple-gem-game/actions/workflows/prompt-eval.yml/badge.svg)](https://github.com/joshuablakemorekay/samsara-triple-gem-game/actions/workflows/prompt-eval.yml)
 
 This folder documents the prompts used to build *Samsara: Journey to the Triple Gem* — a 2D Buddhist educational game built entirely through AI-assisted development using Claude. It exists as portfolio evidence of prompt engineering, iterative design, and collaborative problem-solving — not as runtime configuration.
 

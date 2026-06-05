@@ -2,8 +2,8 @@
 
 A top-down 2D Buddhist RPG where every moral choice shapes your soul. Navigate six realms of existence, help suffering beings, face Mara, and find refuge in the Triple Gem.
 
-🎮 **Play in browser:** https://mungmanbaoisan.itch.io/samsara-triple-gem-game
-🕹️ **All my games:** https://mungmanbaoisan.itch.io/
+🎮 **Play in browser:** https://joshua-kay.itch.io/samsara-triple-gem-game
+🕹️ **All my games:** https://joshua-kay.itch.io/
 
 ![Samsara gameplay — facing Mara at the temple gates](screenshot.png)
 
@@ -26,15 +26,15 @@ A top-down 2D Buddhist RPG where every moral choice shapes your soul. Navigate s
 ## How to Run It
 
 **In the browser (easiest):**
-Go to https://mungmanbaoisan.itch.io/samsara-triple-gem-game and click **Play in browser**. Works in Chrome and Edge.
+Go to https://joshua-kay.itch.io/samsara-triple-gem-game and click **Play in browser**. Works in Chrome and Edge.
 
 **On Windows — ready to play (v2.0):**
-1. Download `Samsara_Windows_v2.0.zip` from the [GitHub Releases](https://github.com/MungManBaoIsan/samsara-triple-gem-game/releases) or itch.io
+1. Download `Samsara_Windows_v2.0.zip` from the [GitHub Releases](https://github.com/joshuablakemorekay/samsara-triple-gem-game/releases) or itch.io
 2. Unzip and double-click `Samsara.exe` — no Python or installation required
 
 **On Windows — source code version:**
 For developers or anyone who wants to run or explore the Python files directly.
-1. Download `Samsara_Windows.zip` from [GitHub Releases](https://github.com/MungManBaoIsan/samsara-triple-gem-game/releases) or itch.io
+1. Download `Samsara_Windows.zip` from [GitHub Releases](https://github.com/joshuablakemorekay/samsara-triple-gem-game/releases) or itch.io
 2. Install Python 3.12 and run `pip install pygame`
 3. Run `main.py` — full instructions in the included `HOW_TO_PLAY_WINDOWS.txt`
 
