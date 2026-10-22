@@ -16,6 +16,18 @@ A top-down 2D Buddhist RPG where every moral choice shapes your soul. Navigate s
 - Meditate, keep a journal, read a Buddhist glossary, and unlock achievements along the way
 - Save your progress across three save slots with autosave
 
+## Screenshots
+
+The cover and screenshots from the itch.io store page.
+
+<p align="center"><img src="itch_page/cover_630x500_existing.png" alt="Samsara: Journey to the Triple Gem cover image" width="420"></p>
+
+<table>
+  <tr><td align="center"><img src="itch_page/1_temple.png" alt="The Buddha at the centre of the realms" width="400"><br>The Buddha at the centre of the realms</td><td align="center"><img src="itch_page/2_dialogue.png" alt="Talking with Elder Song, the Dharma teacher" width="400"><br>Talking with Elder Song, the Dharma teacher</td></tr>
+  <tr><td align="center"><img src="itch_page/3_realms.png" alt="Exploring the realms" width="400"><br>Exploring the realms</td><td align="center"><img src="itch_page/4_past_life.png" alt="Choosing your past life" width="400"><br>Choosing your past life</td></tr>
+  <tr><td align="center"><img src="itch_page/5_glossary.png" alt="The Buddhist glossary" width="400"><br>The Buddhist glossary</td><td align="center"><img src="itch_page/6_menu.png" alt="Main menu" width="400"><br>Main menu</td></tr>
+</table>
+
 ## Built With
 
 - **Python / Pygame** — the game engine
