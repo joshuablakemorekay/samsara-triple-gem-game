@@ -20,7 +20,7 @@ The clarification prompt also established tone guard-rails: the game should make
 
 ## Outcome
 
-Produced a complete Game Design Document and Phase 1 Python/Pygame codebase: six realms as concentric circles, three-currency progression (Merit, Karma, Wisdom), fog-of-ignorance visual system, hybrid exploration/dialogue gameplay, and a past-life selection mechanic that determines spawn realm. Shipped as a playable game on itch.io at mungmanbaoisan.itch.io/samsara-triple-gem-game.
+Produced a complete Game Design Document and Phase 1 Python/Pygame codebase: six realms as concentric circles, three-currency progression (Merit, Karma, Wisdom), fog-of-ignorance visual system, hybrid exploration/dialogue gameplay, and a past-life selection mechanic that determines spawn realm. Shipped as a playable game on itch.io at smoald.itch.io/samsara-triple-gem-game.
 
 ## What I'd change next
 
