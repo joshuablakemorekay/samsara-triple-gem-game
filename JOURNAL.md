@@ -3,6 +3,45 @@ A chronological log of key developments, decisions and learnings throughout this
 
 ---
 
+## 2026-10-22 — New itch.io store page, a Facebook post, and a hidden crash fixed
+
+**TL;DR:**
+- Gave the itch.io page a proper cover and six screenshots taken straight from the game
+- Shared Samsara in the itch.io Community Facebook group to get player feedback
+- Found and fixed a crash that would have hit any future Windows build made from the main code
+
+**Type:** Polish / Bug Fix
+
+**What I built or did**
+
+The itch.io page only had one picture, so I made a full set: the temple with Mara and the Buddha, talking to Elder Song, the outer realms with mini-Maras, choosing a past life, the glossary and the title screen. They're saved in `itch_page/`. For the cover I kept my favourite existing picture and added the "SAMSARA — Journey to the Triple Gem" heading above it. Then I posted the game in the itch.io Community Facebook group, the same way I shared Mara's Siege.
+
+**Why I did it this way**
+
+Screenshots are the first thing people judge a game by, and a page with one image looks unfinished. I posted in the group rather than on my own feed because the group is full of people who actually play indie games. Their feedback is what I need to plan the next version.
+
+**How We Did It**
+
+1. Wrote a small script that runs the game in the background and saves each screen as a picture
+2. Set up each scene (stats, position, which screen is open), checked every image, and re-took the weak ones
+3. Left the journal screen out because its last achievement overlaps the "Press J" line
+4. Added the heading to the existing cover, then shrank the picture so the stats panel stays in view
+5. Uploaded everything to itch.io and posted in the Facebook group
+
+**The crash**
+
+While taking the screenshots, the game crashed as soon as the Buddha was drawn. On desktop the Buddha's glow has 7 rings, each one more see-through than the last (`80 - i * 15`). The 7th ring works out to -10, and pygame refuses a negative transparency value. The browser version only draws 4 rings, so players never saw it. The Windows download was built from an older copy that fades in smaller steps, so it was safe too. I clamped the value at zero with `max(0, ...)` so a future desktop build from this code can't crash.
+
+**What I learned**
+
+Having three copies of the same game (main folder, `samsara_game/` and `Samsara_Windows/`) makes it easy to get confused about which one a bug is actually in. I first thought the Windows download was broken. Checking which copy each build really came from showed it wasn't.
+
+**References / Conversations**
+
+Built with Claude Code: one session covering the screenshot script, cover design, the Facebook post and the crash fix.
+
+---
+
 ## 2026-05-30 — Touchscreen controls for the browser version
 
 **TL;DR:**
