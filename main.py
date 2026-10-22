@@ -1325,7 +1325,7 @@ class Game:
                     for i, aura_surf in enumerate(self._buddha_aura_surfs):
                         aura_size = npc_size + (i * 30)
                         aura_surf.fill((0, 0, 0, 0))
-                        aura_alpha = int(80 - (i * 15))
+                        aura_alpha = max(0, int(80 - (i * 15)))  # 7th desktop ring would go negative and crash
                         pygame.draw.circle(aura_surf, (255, 215, 0, aura_alpha),
                                          (aura_size//2, aura_size//2), aura_size//2)
                         self.screen.blit(aura_surf, (screen_x - aura_size//2, screen_y - aura_size//2))
